@@ -6,7 +6,7 @@
 #    By: btomlins <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/02 17:59:31 by btomlins          #+#    #+#              #
-#    Updated: 2024/11/04 12:19:49 by btomlins         ###   ########.fr        #
+#    Updated: 2024/11/04 12:41:50 by btomlins         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,10 +16,11 @@ C++_FLAGS = -Wall -Wextra -Werror -std=c++98 -pedantic
 INFILES = main.cpp\
 		  ClapTrap.cpp\
 		  ScavTrap.cpp\
+		  FragTrap.cpp\
 
 OBJFILES = $(INFILES:.cpp=.o)
 
-NAME = Serena_my_love
+NAME = Repetitive_work
 
 all: $(NAME)
 
