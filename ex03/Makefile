@@ -6,7 +6,7 @@
 #    By: btomlins <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/02 17:59:31 by btomlins          #+#    #+#              #
-#    Updated: 2024/11/04 12:41:50 by btomlins         ###   ########.fr        #
+#    Updated: 2024/11/04 13:11:14 by btomlins         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,10 +17,11 @@ INFILES = main.cpp\
 		  ClapTrap.cpp\
 		  ScavTrap.cpp\
 		  FragTrap.cpp\
+		  DiamondTrap.cpp\
 
 OBJFILES = $(INFILES:.cpp=.o)
 
-NAME = Repetitive_work
+NAME = Now_its_weird
 
 all: $(NAME)
 
